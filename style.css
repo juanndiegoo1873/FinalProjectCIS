@@ -1,0 +1,71 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  Body Styling */
+body {
+  font-family: Arial, sans-serif; /* making it simple, easy to read */
+  background-color: #ffffff;      
+  color: #000000;                 
+  padding: 20px;                 
+  line-height: 1.5;              
+}
+
+/*  Header */
+header {
+  text-align: center;            /* page title centered */
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc; /* border to separate the header */
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #555;                   
+}
+
+/* Layout  */
+main {
+  max-width: 800px;              /* Keep main content readable on wide screens */
+  margin: 0 auto;                
+}
+
+section {
+  margin-bottom: 20px;           /* Space between sections */
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  
+}
+
+ul {
+  margin-left: 20px;
+  padding-left: 10px;           /* Indentation for list items */
+}
+
+a {
+  color: #0066cc;               
+  text-decoration: none;        
+}
+
+a:hover {
+  text-decoration: underline;   
+}
+
+/* Footer  */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #555;                  
+}
